@@ -1,5 +1,5 @@
 {% set name = "cw-eval" %}
-{% set version = "0.3" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name|replace("-","_") }}-{{ version }}.tar.gz
-  sha256: b4119b087a75013446337c9ab2873b43c6a654730b0962c6a8504235caaf4088
+  sha256: ca9e235048b1104bd64e70b935a7eec35150a27d1544fe2e9f71e476ceed73c3
 
 
 build:
